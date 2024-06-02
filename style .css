@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/86742114-c001-4800-a127-c9c89ca7bbe4/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo img {
+  width: 150px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+nav ul li {
+  margin-left: 20px; /* Use margin-left instead of margin-right for spacing */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
+  text-align: center;
+  padding: 0 20px;
+}
+
+main h2 {
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+}
+
+main h3 {
+  font-size: 20px;
+  color: whitesmoke;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+main p {
+  font-size: 20px;
+  color: whitesmoke;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.cta {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.signUP-btn {
+  background-color: red;
+  color: white;
+  padding: 8px 32px;
+  border: none; /* Ensure no border is present */
+  text-align: center; /* Center text */
+  display: inline-block; /* Ensure it behaves like a button */
+  text-decoration: none; /* Remove underline from link */
+  font-size: 16px; /* Match the font size for consistency */
+}
+.langubtn{
+  background-color: black;
+  
+  padding: 8px 32px;
+  border: none; /* Ensure no border is present */
+  text-align: center; /* Center text */
+  display: inline-block; /* Ensure it behaves like a button */
+  text-decoration: none; /* Remove underline from link */
+  font-size: 6px;
+}
+.secImg{
+   background-color: black;
+}
